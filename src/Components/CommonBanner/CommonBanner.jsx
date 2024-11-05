@@ -11,10 +11,10 @@ const CommonBanner = ({ title }) => {
             next level. From smart devices to the coolest accessories, we have
             it all!
           </p>
-          {/* <div>
+          <div>
             <button className="btn ">nihal</button>
             <button className="btn ">Siam</button>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>

@@ -4,7 +4,6 @@ import ProductDetails from "../ProductDetails/ProductDetails";
 import { Link } from "react-router-dom";
 
 const Home = () => {
-  const detail = true;
   const [selectedCategory, setSelectedCategory] = useState("All");
 
   const [sortDescending, setSortDescending] = useState(false);
@@ -18,12 +17,12 @@ const Home = () => {
       : productData.products.filter(
           (product) => product.category === selectedCategory
         );
-  if (sortDescending) {
-    filteredProducts = [...filteredProducts].sort((a, b) => b.price - a.price);
-  }
-  const handleViewDetails = (product) => {
-    setSelectedProduct(product);
-  };
+  // if (sortDescending) {
+  //   filteredProducts = [...filteredProducts].sort((a, b) => b.price - a.price);
+  // }
+  // const handleViewDetails = (product) => {
+  //   setSelectedProduct(product);
+  // };
 
   const handleBackToList = () => {
     setSelectedProduct(null);
@@ -36,7 +35,7 @@ const Home = () => {
   }
 
   return (
-    <div className="mt-64">
+    <div className="mt-[500px]">
       <div className="flex">
         <div className="w-1/4 p-4">
           <h2>Categories</h2>
@@ -50,14 +49,14 @@ const Home = () => {
           >
             All
           </button>
-          <button
+          {/* <button
             onClick={() => setSortDescending(!sortDescending)}
             className={`py-1 px-4 text-sm font-semibold rounded ${
               sortDescending ? "bg-blue-500 text-white" : "bg-gray-300"
             }`}
           >
             Sort by Price {sortDescending ? "(Ascending)" : "(Descending)"}
-          </button>
+          </button> */}
           <button
             onClick={() => setSelectedCategory("Laptop")}
             className={`block w-full py-2 px-4 mb-2 ${
