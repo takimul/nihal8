@@ -1,0 +1,223 @@
+ {
+    "products": [
+      {
+        "id": 1,
+        "category": "Laptop",
+        "price": 999.99,
+        "details": "15.6-inch FHD, 8GB RAM, 512GB SSD, Intel i5",
+        "model": "Dell Inspiron 15",
+        "name": "Dell Inspiron 15 3000",
+        "image" :"https://m.media-amazon.com/images/I/61SDITIPUqL._AC_SL1495_.jpg"
+      },
+      {
+        "id": 2,
+        "category": "Laptop",
+        "price": 1299.99,
+        "details": "13-inch Retina, 8GB RAM, 256GB SSD, M1 Chip",
+        "model": "Apple MacBook Air",
+        "name": "MacBook Air M1",
+        "image": "https://adminapi.applegadgetsbd.com/storage/media/large/2323-92738.jpg"
+      },
+      {
+        "id": 3,
+        "category": "Laptop",
+        "price": 1399.99,
+        "details": "14-inch QHD, 16GB RAM, 1TB SSD, Ryzen 7",
+        "model": "HP Pavilion 14",
+        "name": "HP Pavilion 14-dv0040TU",
+        "image": "https://ryans.com/storage/products/main/hp-pavilion-14-dv1234tu-intel-core-i5-1155g7-8gb-41711346224.webp"
+      },
+      {
+        "id": 4,
+        "category": "Laptop",
+        "price": 899.99,
+        "details": "15.6-inch HD, 8GB RAM, 256GB SSD, Intel i3",
+        "model": "Lenovo IdeaPad 3",
+        "name": "Lenovo IdeaPad 3 15",
+        "image": "https://www.netstar.com.bd/wp-content/uploads/2022/11/ideapad-3-110-500x500-1-1.jpg"
+      },
+      {
+        "id": 5,
+        "category": "Laptop",
+        "price": 1499.99,
+        "details": "16-inch Retina, 16GB RAM, 512GB SSD, M1 Pro Chip",
+        "model": "Apple MacBook Pro",
+        "name": "MacBook Pro 16-inch",
+        "image": "https://adminapi.applegadgetsbd.com/storage/media/large/3713-9997.jpg"
+      },
+      {
+        "id": 6,
+        "category": "Laptop",
+        "price": 1199.99,
+        "details": "15.6-inch OLED, 16GB RAM, 512GB SSD, Intel i7",
+        "model": "ASUS VivoBook",
+        "name": "ASUS VivoBook K513",
+        "image": "https://dlcdnwebimgs.asus.com/gain/f5d267ef-9fde-4244-80cc-7413cec40944/"
+      },
+      {
+        "id": 7,
+        "category": "Laptop",
+        "price": 1050.00,
+        "details": "13.5-inch QHD, 8GB RAM, 256GB SSD, Intel i5",
+        "model": "Microsoft Surface Laptop",
+        "name": "Surface Laptop 4",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPNgBhDPL9j7uqdUAjeR4nxl7tvjDFUKC4AA&s"
+      },
+      {
+        "id": 8,
+        "category": "Laptop",
+        "price": 1350.00,
+        "details": "14-inch UHD, 16GB RAM, 1TB SSD, Intel i9",
+        "model": "Dell XPS 13",
+        "name": "Dell XPS 13 9300",
+        "image": "https://www.custommacbd.com/cdn/shop/products/93002_19e7b507-89a4-4aef-ae25-b01a1f2f20a9.jpg?v=1613634807"
+      },
+      
+      {
+        "id": 9,
+        "category": "Mobile",
+        "price": 799.99,
+        "details": "6.1-inch OLED, 128GB Storage, A15 Bionic",
+        "model": "iPhone 13",
+        "name": "Apple iPhone 13",
+        "image": "https://www.custommacbd.com/cdn/shop/products/iphone-13-midnight-Custom-Mac-BD.jpg?v=1634647421"
+      },
+      {
+        "id": 10,
+        "category": "Mobile",
+        "price": 999.99,
+        "details": "6.7-inch OLED, 256GB Storage, A15 Bionic",
+        "model": "iPhone 13 Pro Max",
+        "name": "Apple iPhone 13 Pro Max",
+        "image": "https://adminapi.applegadgetsbd.com/storage/media/large/3413-15910.jpg"
+      },
+      {
+        "id": 11,
+        "category": "Mobile",
+        "price": 499.99,
+        "details": "6.5-inch LCD, 128GB Storage, Snapdragon 750G",
+        "model": "Samsung Galaxy A52",
+        "name": "Samsung Galaxy A52 5G",
+        "image":"https://www.salextra.com.bd/images/thumbs/001/0013902_samsung-galaxy-a52s-5g-8gb128gb_600.png"
+      },
+      {
+        "id": 12,
+        "category": "Mobile",
+        "price": 1199.99,
+        "details": "6.8-inch AMOLED, 256GB Storage, Snapdragon 888",
+        "model": "Samsung Galaxy S21 Ultra",
+        "name": "Samsung Galaxy S21 Ultra",
+        "image":"https://www.gizmochina.com/wp-content/uploads/2020/11/Samsung-Galaxy-S21-Ultra-5G-500x500.jpg"
+      },
+      {
+        "id": 13,
+        "category": "Mobile",
+        "price": 699.99,
+        "details": "6.55-inch AMOLED, 128GB Storage, Snapdragon 870",
+        "model": "OnePlus 9R",
+        "name": "OnePlus 9R",
+        "image":"https://oasis.opstatics.com/content/dam/oasis/page/2021/9-series/spec-image/9r/Carbon-Black-gallery..png"
+      },
+      {
+        "id": 14,
+        "category": "Mobile",
+        "price": 899.99,
+        "details": "6.4-inch AMOLED, 128GB Storage, Exynos 2100",
+        "model": "Samsung Galaxy S21",
+        "name": "Samsung Galaxy S21",
+        "image":"https://1000fix.com/wp-content/uploads/2022/07/Samsung-Galaxy-S21-FE-5G-image1-600x508.webp"
+      },
+      {
+        "id": 15,
+        "category": "Mobile",
+        "price": 599.99,
+        "details": "6.43-inch AMOLED, 128GB Storage, Dimensity 1200",
+        "model": "Realme GT",
+        "name": "Realme GT Neo 2",
+        "image":"https://ecom.rangs.com.bd/storage/8962/860X740-01.jpg"
+      },
+      {
+        "id": 16,
+        "category": "Mobile",
+        "price": 1099.99,
+        "details": "6.7-inch LTPO OLED, 256GB Storage, Google Tensor",
+        "model": "Google Pixel 6 Pro",
+        "name": "Google Pixel 6 Pro",
+        "image":"https://mobilebuzzbd.com/wp-content/uploads/2023/07/Pixel-6-Pro.jpg"
+      },
+      
+      {
+        "id": 17,
+        "category": "Accessory",
+        "price": 29.99,
+        "details": "Wireless Bluetooth Earbuds, Noise-Cancelling",
+        "model": "JBL Tune 125",
+        "name": "JBL Tune 125TWS",
+        "image":"https://gearbuzzbd.com/wp-content/uploads/2021/08/jbl-tune-125-tws-1.jpg"
+      },
+      {
+        "id": 18,
+        "category": "Accessory",
+        "price": 49.99,
+        "details": "20W USB-C Power Adapter",
+        "model": "Apple Charger",
+        "name": "Apple 20W USB-C Charger",
+        "image":"https://adminapi.applegadgetsbd.com/storage/media/large/1526-85853.jpg"
+      },
+      {
+        "id": 19,
+        "category": "Accessory",
+        "price": 99.99,
+        "details": "Portable Wireless Speaker, Waterproof",
+        "model": "JBL Flip 5",
+        "name": "JBL Flip 5",
+        "image":"https://www.shopz.com.bd/wp-content/uploads/2021/03/JBL-FLIP-5-Portable-Waterproof-Speaker.jpg"
+      },
+      {
+        "id": 20,
+        "category": "Accessory",
+        "price": 149.99,
+        "details": "Over-Ear Headphones, Noise-Cancelling",
+        "model": "Sony WH-1000XM4",
+        "name": "Sony WH-1000XM4",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7ypzOhSxnGY6kZAYSgHTCuc1R3Im3y0R6Lg&s"
+      },
+      {
+        "id": 21,
+        "category": "Accessory",
+        "price": 24.99,
+        "details": "Car Charger, Dual USB Port",
+        "model": "Anker PowerDrive",
+        "name": "Anker PowerDrive 2",
+        "image":"https://istatic.ifixit.com.bd/uploads/2023-6-29/2567-anker-powerdrive-2-24w-2-port-car-charger.jpg"
+      },
+      {
+        "id": 22,
+        "category": "Accessory",
+        "price": 59.99,
+        "details": "Magnetic Wireless Charger",
+        "model": "Samsung Wireless Charger",
+        "name": "Samsung Wireless Charger Duo",
+        "image":"https://www.excelestore.com.bd/public/uploads/all/cwaGR9TqW54lFnKvdBEHxwZIco85YvNs4GJ9eCZf.png"
+      },
+      {
+        "id": 23,
+        "category": "Accessory",
+        "price": 39.99,
+        "details": "Fast Charging Cable, USB-C to Lightning",
+        "model": "Apple Lightning Cable",
+        "name": "Apple USB-C to Lightning Cable",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDlmmsGq0eraoJP4cBTDeeI2IpYehURxkTDQ&s"
+      },
+      {
+        "id": 24,
+        "category": "Accessory",
+        "price": 199.99,
+        "details": "Smartwatch with GPS, Heart Rate Monitor",
+        "model": "Fitbit Versa 3",
+        "name": "Fitbit Versa 3",
+        "image":"https://adminapi.applegadgetsbd.com/storage/media/large/Fitbit-Versa-3-Smart-Watch-Black-9119.jpg"
+      }
+    ]
+  }
+  
