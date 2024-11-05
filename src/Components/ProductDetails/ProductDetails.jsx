@@ -133,9 +133,11 @@ const ProductDetails = () => {
       }
       if (!cartItems.includes(id)) {
         cartItems.push(id);
+        alert("Product added to cart successfully");
         localStorage.setItem("Cart", JSON.stringify(cartItems));
       } else {
         console.log("Product is already in the cart.");
+        alert("Product is already in the cart.");
       }
     } catch (error) {
       console.error("Error updating cart:", error);

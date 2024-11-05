@@ -4,6 +4,8 @@ import productData from "/assets/products.json";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import CommonBanner from "../CommonBanner/CommonBanner";
+import { HiSortDescending } from "react-icons/hi";
+import { TiDeleteOutline } from "react-icons/ti";
 
 const Dashboard = () => {
   const [view, setView] = useState("wishlist"); // Controls view (wishlist or cart)
@@ -65,16 +67,20 @@ const Dashboard = () => {
             <div className="flex gap-2 justify-center">
               <button
                 onClick={() => setView("cart")}
-                className={`btn ${
-                  view === "cart" ? "btn-primary" : "btn-secondary"
+                className={`btn w-40 rounded-3xl ${
+                  view === "cart"
+                    ? " bg-white text-[#9538E2]"
+                    : "bg-[#9538E2] text-white"
                 }`}
               >
                 Cart
               </button>
               <button
                 onClick={() => setView("wishlist")}
-                className={`btn ${
-                  view === "wishlist" ? "btn-primary" : "btn-secondary"
+                className={`btn w-40 rounded-3xl ${
+                  view === "wishlist"
+                    ? " bg-white text-[#9538E2]"
+                    : "bg-[#9538E2] text-white"
                 }`}
               >
                 Wishlist
@@ -89,16 +95,22 @@ const Dashboard = () => {
         <h1 className="text-2xl font-bold">
           {view === "wishlist" ? "Wishlist" : "Cart"} Items
         </h1>
-        <div>
+        <div className="flex gap-2">
           <button
             onClick={() => setSortDescending(!sortDescending)}
-            className={`btn ${
-              sortDescending ? "bg-blue-500 text-white" : "bg-gray-300"
+            className={` w-40 rounded-3xl ${
+              sortDescending
+                ? "bg-[#9538E2] text-white border border-[#9538E2] font-semibold"
+                : "border border-[#9538E2] text-[#9538E2] font-semibold"
             }`}
           >
-            Sort by Price
+            <div className="flex justify-between px-6 items-center py-2">
+              Sort by Price <HiSortDescending />
+            </div>
           </button>
-          <button className="btn btn-primary ml-2">Purchase</button>
+          <button className="px-6 items-center py-2 w-40 rounded-3xl bg-[#9538E2] text-white">
+            Purchase
+          </button>
         </div>
       </div>
 
@@ -112,28 +124,31 @@ const Dashboard = () => {
           filteredProducts.map((product) => (
             <div
               key={product.id}
-              className="md:card md:card-side bg-base-100 shadow-xl mb-4"
+              className="md:card md:card-side bg-base-100 shadow-xl mb-4 md:flex justify-around"
             >
-              <figure>
-                <img
-                  className="h-[200px] w-[200px]"
-                  src={product.image}
-                  alt={product.name}
-                />
-              </figure>
-              <div className="card-body">
+              <div className="">
+                <figure>
+                  <img
+                    className="h-[200px] w-[200px]"
+                    src={product.image}
+                    alt={product.name}
+                  />
+                </figure>
+              </div>
+
+              <div className=" px-4 md:my-auto">
                 <h2 className="card-title">{product.name}</h2>
                 <p>{product.details}</p>
                 <p>Price: ${product.price}</p>
+              </div>
 
-                <div className="card-actions justify-end">
-                  <button
+              <div className="md:my-auto text-center">
+                <button>
+                  <TiDeleteOutline
                     onClick={() => handleDelete(product.id)}
-                    className="btn btn-danger"
-                  >
-                    Delete
-                  </button>
-                </div>
+                    className=" text-red-600 h-16 w-16 md:h-24 md:w-24"
+                  />
+                </button>
               </div>
             </div>
           ))

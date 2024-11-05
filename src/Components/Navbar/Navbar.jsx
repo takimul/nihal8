@@ -1,10 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { IoCartOutline } from "react-icons/io5";
+import { FaRegHeart } from "react-icons/fa";
 
 const Navbar = ({ home }) => {
   return (
     <div className={` ${home ? "bg-[#9538E2] text-white" : "bg-base-200"}`}>
-      <div className="navbar ">
+      <div className="navbar md:px-[10%] ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -43,11 +45,11 @@ const Navbar = ({ home }) => {
             </ul>
           </div>
           <NavLink to={"/"}>
-            <a className="btn btn-ghost text-xl">daisyUI</a>
+            <a className="btn btn-ghost text-xl font-bold">Gadget Heaven</a>
           </NavLink>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-1 font-semibold">
             <li>
               {" "}
               <NavLink to={"/"}>Home</NavLink>
@@ -64,7 +66,16 @@ const Navbar = ({ home }) => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <div className="rounded-full text-2xl text-black bg-white p-2">
+            <a className=" ">
+              <IoCartOutline />
+            </a>
+          </div>
+          <div className="rounded-full text-2xl text-black bg-white p-2 ml-2">
+            <a className=" ">
+              <FaRegHeart />
+            </a>
+          </div>
         </div>
       </div>
     </div>

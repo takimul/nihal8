@@ -36,12 +36,12 @@ const Home = () => {
 
   return (
     <div className="mt-[500px]">
-      <div className="flex">
-        <div className="w-1/4 p-4">
-          <h2>Categories</h2>
+      <div className="flex w-[90%] mx-auto">
+        <div className="w-1/4 p-4 flex flex-col gap-6 border border-red-500 px-40 shadow-xl  ">
+          {/* <h2>Categories</h2> */}
           <button
             onClick={() => setSelectedCategory("All")}
-            className={`block w-full py-2 px-4 mb-2 ${
+            className={`py-2 w-40 rounded-3xl bg-[#9538E2] text-white ${
               selectedCategory === "All"
                 ? "bg-blue-500 text-white"
                 : "bg-gray-200"
@@ -59,7 +59,7 @@ const Home = () => {
           </button> */}
           <button
             onClick={() => setSelectedCategory("Laptop")}
-            className={`block w-full py-2 px-4 mb-2 ${
+            className={`py-2 w-40 rounded-3xl bg-[#9538E2] text-white ${
               selectedCategory === "Laptop"
                 ? "bg-blue-500 text-white"
                 : "bg-gray-200"
@@ -69,7 +69,7 @@ const Home = () => {
           </button>
           <button
             onClick={() => setSelectedCategory("Mobile")}
-            className={`block w-full py-2 px-4 mb-2 ${
+            className={`py-2 w-40 rounded-3xl bg-[#9538E2] text-white ${
               selectedCategory === "Mobile"
                 ? "bg-blue-500 text-white"
                 : "bg-gray-200"
@@ -79,7 +79,7 @@ const Home = () => {
           </button>
           <button
             onClick={() => setSelectedCategory("Accessory")}
-            className={`block w-full py-2 px-4 mb-2 ${
+            className={`py-2 w-40 rounded-3xl bg-[#9538E2] text-white ${
               selectedCategory === "Accessory"
                 ? "bg-blue-500 text-white"
                 : "bg-gray-200"
